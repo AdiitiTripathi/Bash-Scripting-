@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /home/vagrant/work/week6/cwl-data/data/structured
+for f in ./*.gz
+do 
+tar zxvf $f;
+done
